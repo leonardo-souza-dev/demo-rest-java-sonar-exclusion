@@ -18,6 +18,8 @@
 
 		<!-- sonar properties -->
 		<sonar.organization>ltreze</sonar.organization>
+
+		<!-- TODO Drop this dependency -->
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
 		  
