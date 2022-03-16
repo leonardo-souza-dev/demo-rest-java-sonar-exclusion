@@ -22,6 +22,23 @@
 		<!-- TODO Drop this dependency -->
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
+		<sonar.exclusions>
+			Dockerfile,
+			Jenkinsfile,
+			README.md,
+			kustomize/*,
+			*.yaml,
+			*.yml,
+			*.xml,
+			src/test/**,
+			src/main/resources/**,
+			src/main/java/br/com/viavarejo/exception/**,
+			src/main/java/br/com/viavarejo/gateway/feign/data/**/*,
+			src/main/java/br/com/viavarejo/domain/*,
+			src/main/java/br/com/viavarejo/enums/*,
+			src/main/java/br/com/viavarejo/utils/*
+		</sonar.exclusions>
+
 		  
 	</properties>
 	<dependencies>
