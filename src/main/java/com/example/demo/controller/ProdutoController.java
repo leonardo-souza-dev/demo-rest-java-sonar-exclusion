@@ -9,6 +9,9 @@ public class ProdutoController {
 
 	@GetMapping("/inserirProduto")
 	public String inserirProduto(@RequestParam(value = "nome") final String nome) throws Exception {
+
+		int foo = 1;
+
 		return nome;
 	}
 }
