@@ -31,12 +31,7 @@
 			*.yml,
 			*.xml,
 			src/test/**,
-			src/main/resources/**,
-			src/main/java/br/com/viavarejo/exception/**,
-			src/main/java/br/com/viavarejo/gateway/feign/data/**/*,
-			src/main/java/br/com/viavarejo/domain/*,
-			src/main/java/br/com/viavarejo/enums/*,
-			src/main/java/br/com/viavarejo/utils/*
+			src/main/resources/**
 		</sonar.exclusions>
 
 		  
